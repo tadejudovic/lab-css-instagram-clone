@@ -1,10 +1,105 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: #1pc5380
 */
+
+header {
+  background-color: #1c5380;
+  height: 300px;
+  max-height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10%;
+}
+
+.logoandbutton {
+  margin-right: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.frame {
+  height: 40px;
+  width: 109px;
+  position: absolute;
+  opacity: 0%;
+  left: 67.5%;
+  border-radius: 3%;
+}
+
+.iglogo1 {
+  height: 58%;
+}
+
+.loginbutton {
+  background: linear-gradient(#0e4776, #1c5380);
+
+  padding: 2%;
+  border-width: 0.02px;
+  border-radius: 0.2px;
+  border-color: #5391c4;
+  box-shadow: 0px 0px 2px;
+  display: flex;
+  align-items: center;
+}
+
+.loginbutton button {
+  font-weight: bold;
+  background-color: transparent;
+  border-width: 0;
+  color: white;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.phoneandtext {
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.maintext {
+  border-style: solid;
+  border-color: grey;
+  background-color: white;
+  border-width: 0px;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  right: 15%;
+  padding: 1% 3% 3% 3%;
+  border-radius: 1%;
+  box-shadow: 4px -10px 17px -15px;
+}
+
+.phone {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.bottom {
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin: 0%;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.bottom1 {
+  color: #06365f;
+  font-weight: 400;
+}
+
+.ig {
+  color: grey;
 }
